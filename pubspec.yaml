@@ -1,0 +1,19 @@
+name: accessibility_packages
+description: Flutter plugin (Android) that lists the apps/packages whose accessibility services are currently enabled or installed.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.lynical.accessibility_packages
+        pluginClass: AccessibilityPackagesPlugin
